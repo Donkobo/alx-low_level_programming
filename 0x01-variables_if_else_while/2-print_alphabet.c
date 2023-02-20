@@ -1,13 +1,13 @@
-/** File: 2-print_alphabets in c
+/**
+ * File: 2-print_alphabets in c
  * Writer: Chukwudike Ezra
 */
 
 #include <stdio.h>
-
 /**
- * main - Prints the alphabet in lowercase.
+ * main prints the alphabets in lowercase.
  *
- * Return: Always 0.
+ * return: always 0.
 */
 int main(void)
 {
