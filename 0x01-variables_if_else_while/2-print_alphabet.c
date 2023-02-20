@@ -1,23 +1,24 @@
-/**
- * File: 2-print_alphabets in c
- * Writer: Chukwudike Ezra
-*/
+/*
+ * File: 2-print_alphabet.c
+ * Auth: Chukwudike Ezra
+ */
 
 #include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - Prints the alphabets in lowercase.
- *
- * return: always 0.
-*/
+ * main - Entry point
+ * Description: prints the alphabet in lowercase\n
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-	char letter;
+	int ch;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
-
-	return (0);
+return (0);
 }
