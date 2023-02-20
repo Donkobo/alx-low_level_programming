@@ -1,0 +1,1 @@
+Variables for IF ELSE / WHILE STATEMENTS
